@@ -13,7 +13,6 @@ To train the model, run train.py with the correct arguments to train the model o
 python train.py --data_dir ../aipnd-project/flowers --epochs 4 --arch vgg19 --learning_rate 0.0003 --gpu 0 --store_dir data --hidden_units 4096
 ```
 
-
 ### Usage
 ```
 python train.py [-h] --data_dir DATA_DIR [--arch ARCH] [--save_dir SAVE_DIR]
@@ -29,7 +28,7 @@ GPU           = Train with GPU (0 is for GPU on, negative number for CPU)
 HIDDEN UNITS  = Hidden units list
 ```
 
-python train.py -h to see the help documentation for the function
+Run ```python train.py -h``` to see the help documentation for the function
 
 Training may take some timne, depending on the amount of compute resources available 
 
@@ -55,4 +54,4 @@ GPU           = Train with GPU (0 is for GPU on, negative number for CPU)
 CAT_FILE      = Path to category-to-name mapping file
 ```
 
-python predict.py -h to see the help documentation for the function
+Run ```python predict.py -h``` to see the help documentation for the function
